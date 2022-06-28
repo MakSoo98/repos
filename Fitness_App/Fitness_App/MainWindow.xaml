@@ -1,0 +1,210 @@
+﻿<Window x:Class="Fitness_App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fitness_App"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="469" Width="693" Background="#272727">
+    <Grid>
+        <Grid Height="438" VerticalAlignment="Top" HorizontalAlignment="Left" Width="685" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="333"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+
+            <Grid Grid.RowSpan="2" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Height="438" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="335" Background="SlateGray">
+                <Grid.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0.262"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Grid.RenderTransform>
+                <TextBlock Text="Bienvenido a FitnessPlanet" HorizontalAlignment="Center" Margin="75,15" Foreground="white" Width="140"/>
+            </Grid>
+            <StackPanel Grid.Row="1">
+                <Image Height="385" Source="/tipomusculosodefondo.png" RenderTransformOrigin="0.510,0.506" Stretch="Fill"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Background="#272727" Grid.RowSpan="2" Margin="0,-9,0,0" HorizontalAlignment="Left" Width="353">
+                <TabControl Name="MainControl" >
+                    <TabControl.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Black"/>
+                            <GradientStop Color="#FF6D6D6D" Offset="1"/>
+                        </LinearGradientBrush>
+                    </TabControl.Background>
+                    <TabItem Visibility="Visible" Name="Inicio">
+
+                        <StackPanel Height="447">
+                            <StackPanel Margin="20 70">
+                                <Border Margin="10" Width="140" Height="30">
+                                    <Button Content="Registrarse" Click="Registrarse_P1" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="140"/>
+
+                                </Border>
+                            </StackPanel>
+                            <StackPanel Margin="20 10">
+                                <Border Margin="10" Width="140" Height="30">
+                                    <Button Content="Iniciar Sesión" Click="Iniciar_Sesion_P1" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="140"/>
+                                </Border>
+                            </StackPanel>
+                        </StackPanel>
+
+                    </TabItem>
+                    <TabItem Visibility="Visible" Name="Registro">
+
+                        <StackPanel Height="447">
+                            <StackPanel Margin=" 10 5"/>
+
+                            <StackPanel Margin="10 0">
+                                <Border Margin="22,5,233,10" Height="30" Width="77" >
+                                    <Label Foreground="white" Content="N. Usuario"/>
+                                </Border>
+                                <Border Margin="141,-40,28,10" Height="30" >
+                                    <TextBox x:Name="N_Usuario"  Text="" TextWrapping="Wrap" Width="165" />
+                                </Border>
+                            </StackPanel>
+
+                            <StackPanel Margin="10 0">
+                                <Border Margin="22,5,233,10" Height="30" Width="77" >
+                                    <Label Foreground="white" Content="Nombre"/>
+                                </Border>
+                                <Border Margin="141,-40,28,10" Height="30" >
+                                    <TextBox x:Name="NombreBox" Text="" TextWrapping="Wrap" Width="165"/>
+                                </Border>
+                            </StackPanel>
+
+                            <StackPanel Margin="10 0">
+                                <Border Margin="22,5,233,10" Height="30" Width="77" >
+                                    <Label Foreground="white" Content="Apellidos"/>
+                                </Border>
+                                <Border Margin="141,-40,28,10" Height="30" >
+                                    <TextBox x:Name="ApellidoBox" Text="" TextWrapping="Wrap" Width="165"/>
+                                </Border>
+                            </StackPanel>
+
+                            <StackPanel Margin="10 0">
+                                <Border Margin="22,5,233,10" Height="30" Width="77" >
+                                    <Label Foreground="white" Content="Correo"/>
+                                </Border>
+                                <Border Margin="141,-40,28,10" Height="30" >
+                                    <TextBox x:Name="CorreoBox" Text="" TextWrapping="Wrap" Width="165"/>
+                                </Border>
+                            </StackPanel>
+
+                            <StackPanel Margin="10 0">
+                                <Border Margin="22,5,233,10" Height="30" Width="77" >
+                                    <Label Foreground="white" Content="Contraseña"/>
+                                </Border>
+                                <Border Margin="141,-40,28,10" Height="30" >
+                                    <TextBox x:Name="ContraseñaBox" Text="" TextWrapping="Wrap" Width="165" Visibility="Visible"/>
+                                </Border>
+                            </StackPanel>
+
+                            <StackPanel Margin="10 0">
+                                <Border Margin="22,5,233,10" Height="30" Width="77" >
+                                    <Label Foreground="white" Content="Peso"/>
+                                </Border>
+                                <Border Margin="141,-40,28,10" Height="30" >
+                                    <TextBox x:Name="PesoBox" Text="" TextWrapping="Wrap" Width="165"/>
+                                </Border>
+                            </StackPanel>
+
+                            <StackPanel Margin="10 0">
+                                <Border Margin="22,5,233,10" Height="30" Width="77" >
+                                    <Label  Foreground="white" Content="Edad"/>
+                                </Border>
+                                <Border Margin="141,-40,28,10" Height="30" >
+                                    <TextBox x:Name="EdadBox" Text="" TextWrapping="Wrap" Width="165"/>
+                                </Border>
+                            </StackPanel>
+                            <StackPanel Margin="10 0">
+                                <Border Margin="22,5,233,10" Height="30" Width="77" >
+                                    <Label Foreground="white" Content="Descripción"/>
+                                </Border>
+                                <Border Margin="141,-40,28,10" Height="30" >
+                                    <TextBox x:Name="DescripciónBox" Text="" TextWrapping="Wrap" Width="165"/>
+                                </Border>
+                            </StackPanel>
+                            <StackPanel Margin="10 5">
+                                <Border Margin="22,10,180,10" Height="30" Width="128" >
+                                    <Button Content="Iniciar Sesión" Click="Iniciar_Sesion_P2"/>
+                                </Border>
+                                <Border Margin="141,-40,0,10" Height="30" Width="128" >
+                                    <Button Content="Crear Cuenta" Click="Crear_Cuenta_P2"/>
+                                </Border>
+                            </StackPanel>
+                        </StackPanel>
+
+                    </TabItem>
+                    <TabItem Visibility="Visible" Name="Inicio_Sesion">
+                        <StackPanel Height="447">
+                            <StackPanel Margin=" 10 5"/>
+
+                            <StackPanel Margin="10 0">
+                                <Border Margin="22,5,233,10" Height="30" Width="77" >
+                                    <Label Foreground="white" Content="N. Usuario"/>
+                                </Border>
+                                <Border Margin="141,-40,28,10" Height="30" >
+                                    <TextBox x:Name="NusuarioLogin" Text="" TextWrapping="Wrap" Width="165" />
+                                </Border>
+                            </StackPanel>
+
+                            <StackPanel Margin="10"/>
+
+                            <StackPanel Margin="10 0">
+                                <Border Margin="22,5,233,10" Height="30" Width="77" >
+                                    <Label Foreground="white" Content="Contraseña"/>
+                                </Border>
+                                <Border Margin="141,-40,28,10" Height="30" >
+                                    <TextBox x:Name="ContraseñaLogin" Text="" TextWrapping="Wrap" Width="165"/>
+                                </Border>
+                            </StackPanel>
+
+                            <Border Margin="50" Width="200" Height="30">
+                                <Button Content="¿Te has olvidado de la contraseña?" Click="ContraseñaOlvidada" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="200" Background="#00272727"
+                            Foreground="LightGoldenrodYellow" BorderBrush="#00272726"   />
+                            </Border>
+                            <StackPanel Margin="10 5">
+                                <Border Margin="22,10,180,10" Height="30" Width="128" >
+                                    <Button Content="Iniciar Sesión" Click="Iniciar_Sesion_P3"/>
+                                </Border>
+                                <Border Margin="141,-40,0,10" Height="30" Width="128" >
+                                    <Button Content="Registrarse" Click="Registrase_P3"/>
+                                </Border>
+
+                            </StackPanel>
+                        </StackPanel>
+
+                    </TabItem>
+                    <TabItem Visibility="Visible" Name="Recover_password">
+                        <StackPanel Height="447">
+                            <StackPanel Margin=" 10 25"/>
+                            <Label HorizontalAlignment="Center" Foreground="Yellow">Introduce el correo de tu cuenta</Label>
+                            <StackPanel Margin="10 25"/>
+                            <StackPanel Margin="10 0">
+                                <Border Margin="22,5,233,10" Height="30" Width="77" >
+                                    <Label Foreground="white" Content="Correo"/>
+                                </Border>
+                                <Border Margin="141,-40,28,10" Height="30" >
+                                    <TextBox x:Name="Recoverbox" Text="" TextWrapping="Wrap" Width="165" />
+                                </Border>
+                            </StackPanel>
+                            <StackPanel Margin="10 50"></StackPanel>
+                            <Button Height="49" Width="163" Content="Recuperar Contraseña" Click="Button_Click"/>
+                        </StackPanel>
+
+                    </TabItem>
+                    
+                </TabControl>
+            </StackPanel>
+
+        </Grid>
+    </Grid>
+</Window>
