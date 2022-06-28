@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "MGpUwiCuRiCWH6ytvoqopUIx6zzSAmjGews/LCbKss3xbkEy63RwusMUXE5X/q1XFJGwkgr+k64Oif5iVpamEw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MakSoo\\Downloads\\Filtros\\Filtros\\FiltrosTest\\FilterTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MakSoo\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\MakSoo\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

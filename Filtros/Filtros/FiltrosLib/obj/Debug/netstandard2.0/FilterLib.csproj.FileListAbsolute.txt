@@ -1,0 +1,10 @@
+C:\Users\usuario\Desktop\repos\Programming\Filtros\FiltrosLib\bin\Debug\netstandard2.0\FilterLib.deps.json
+C:\Users\usuario\Desktop\repos\Programming\Filtros\FiltrosLib\bin\Debug\netstandard2.0\FilterLib.dll
+C:\Users\usuario\Desktop\repos\Programming\Filtros\FiltrosLib\bin\Debug\netstandard2.0\FilterLib.pdb
+C:\Users\usuario\Desktop\repos\Programming\Filtros\FiltrosLib\obj\Debug\netstandard2.0\FilterLib.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\repos\Programming\Filtros\FiltrosLib\obj\Debug\netstandard2.0\FilterLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\Desktop\repos\Programming\Filtros\FiltrosLib\obj\Debug\netstandard2.0\FilterLib.AssemblyInfoInputs.cache
+C:\Users\usuario\Desktop\repos\Programming\Filtros\FiltrosLib\obj\Debug\netstandard2.0\FilterLib.AssemblyInfo.cs
+C:\Users\usuario\Desktop\repos\Programming\Filtros\FiltrosLib\obj\Debug\netstandard2.0\FilterLib.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\repos\Programming\Filtros\FiltrosLib\obj\Debug\netstandard2.0\FilterLib.dll
+C:\Users\usuario\Desktop\repos\Programming\Filtros\FiltrosLib\obj\Debug\netstandard2.0\FilterLib.pdb
