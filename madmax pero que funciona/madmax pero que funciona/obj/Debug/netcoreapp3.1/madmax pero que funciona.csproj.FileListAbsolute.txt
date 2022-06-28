@@ -1,0 +1,14 @@
+C:\Users\MakSoo\source\repos\madmax pero que funciona\madmax pero que funciona\bin\Debug\netcoreapp3.1\madmax pero que funciona.exe
+C:\Users\MakSoo\source\repos\madmax pero que funciona\madmax pero que funciona\bin\Debug\netcoreapp3.1\madmax pero que funciona.deps.json
+C:\Users\MakSoo\source\repos\madmax pero que funciona\madmax pero que funciona\bin\Debug\netcoreapp3.1\madmax pero que funciona.runtimeconfig.json
+C:\Users\MakSoo\source\repos\madmax pero que funciona\madmax pero que funciona\bin\Debug\netcoreapp3.1\madmax pero que funciona.runtimeconfig.dev.json
+C:\Users\MakSoo\source\repos\madmax pero que funciona\madmax pero que funciona\bin\Debug\netcoreapp3.1\madmax pero que funciona.dll
+C:\Users\MakSoo\source\repos\madmax pero que funciona\madmax pero que funciona\bin\Debug\netcoreapp3.1\madmax pero que funciona.pdb
+C:\Users\MakSoo\source\repos\madmax pero que funciona\madmax pero que funciona\obj\Debug\netcoreapp3.1\madmax pero que funciona.csproj.AssemblyReference.cache
+C:\Users\MakSoo\source\repos\madmax pero que funciona\madmax pero que funciona\obj\Debug\netcoreapp3.1\madmax pero que funciona.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MakSoo\source\repos\madmax pero que funciona\madmax pero que funciona\obj\Debug\netcoreapp3.1\madmax pero que funciona.AssemblyInfoInputs.cache
+C:\Users\MakSoo\source\repos\madmax pero que funciona\madmax pero que funciona\obj\Debug\netcoreapp3.1\madmax pero que funciona.AssemblyInfo.cs
+C:\Users\MakSoo\source\repos\madmax pero que funciona\madmax pero que funciona\obj\Debug\netcoreapp3.1\madmax pero que funciona.csproj.CoreCompileInputs.cache
+C:\Users\MakSoo\source\repos\madmax pero que funciona\madmax pero que funciona\obj\Debug\netcoreapp3.1\madmax pero que funciona.dll
+C:\Users\MakSoo\source\repos\madmax pero que funciona\madmax pero que funciona\obj\Debug\netcoreapp3.1\madmax pero que funciona.pdb
+C:\Users\MakSoo\source\repos\madmax pero que funciona\madmax pero que funciona\obj\Debug\netcoreapp3.1\madmax pero que funciona.genruntimeconfig.cache
